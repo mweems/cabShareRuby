@@ -8,6 +8,8 @@ gem 'pg'
 # http://12factor.net/
 # required for heroku https://github.com/heroku/rails_12factor
 gem 'rails_12factor'
+# user login authentication https://github.com/plataformatec/devise
+gem 'devise', '~> 3.2.4'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
